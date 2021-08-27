@@ -877,7 +877,8 @@
         padding-right: 15px;
     }
 
-    .mainslider__left, .mainslider__right {
+    .mainslider__left,
+    .mainslider__right {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }

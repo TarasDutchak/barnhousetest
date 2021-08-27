@@ -66,7 +66,9 @@
     font-style: normal;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -90,9 +92,16 @@ body {
 main {
     flex: 1 1 auto;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
 }
+
 h1 {
     font-size: 50px;
     line-height: 60px;
@@ -1246,9 +1255,11 @@ header.scrolled {
 .aboutus .greenbtn {
     width: 217px;
 }
+
 .cenplay {
     text-align: center;
 }
+
 .cenplay img {
     margin-bottom: 15px;
     width: 44px;
