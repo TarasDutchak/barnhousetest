@@ -448,7 +448,10 @@
     .header__nav.show {
         transform: translateX(0);
     }
-
+    .modal button.close {
+        right: 0;
+        top: -27px;
+    }
 
 
 
@@ -817,7 +820,9 @@
         top: 70%;
     }
 
-
+    .modal__custom .modal-content {
+        padding: 5px;
+    }
 
 
 
