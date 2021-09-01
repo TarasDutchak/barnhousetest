@@ -934,7 +934,8 @@ main.main {
 }
 
 .builtbyus__slider {
-    margin-top: 65px;
+    /* margin-top: 65px; */
+    margin-top: 5px;
     margin-left: -23px;
     width: calc(100% + 46px);
     padding-bottom: 0;
