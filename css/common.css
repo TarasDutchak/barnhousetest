@@ -1071,7 +1071,7 @@ footer.footer {
 }
 
 .footer__logo {
-    max-width: 170px;
+    max-width: 244px;
     width: 100%;
 }
 
@@ -1080,12 +1080,12 @@ footer.footer {
 }
 
 .footer__nav {
-    max-width: calc(100% - 390px);
+    max-width: calc(100% - 569px);
     width: 100%;
 }
 
 .footer__tels {
-    max-width: 220px;
+    max-width: 325px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -1163,10 +1163,11 @@ footer.footer {
 
 .footer__nav-bott ul li img {
     transition: .3s;
+    opacity: .5;
 }
 
 .footer__nav-bott ul li a:hover img {
-    opacity: .5;
+    opacity: 1;
 }
 
 .footer__botttext {

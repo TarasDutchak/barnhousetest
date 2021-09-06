@@ -855,7 +855,9 @@
         padding: 30px 0;
     }
 
-
+    .footer__tels {
+        max-width: calc(100% - 125px);
+    }
 
 
 
