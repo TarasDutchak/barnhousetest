@@ -1610,6 +1610,10 @@ header.scrolled {
     padding-bottom: 70px;
 }
 
+.hide {
+    display: none;
+}
+
 
 /* font-family: 'Lato', sans-serif; */
 
