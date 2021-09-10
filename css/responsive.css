@@ -40,7 +40,7 @@
         line-height: 52px;
         margin-bottom: 30px;
     }
-    h3 {
+    h3, .simph3 {
         font-size: 28px;
     }
     h4 {
@@ -173,11 +173,11 @@
         font-size: 38px;
         line-height: 48px;
     }
-    .mainslider__left h4:before, h3::before {
+    .mainslider__left h4:before, h3::before, .simph3::before {
         width: 40px;
         height: 3px;
     }
-    .mainslider__left h4, h3 {
+    .mainslider__left h4,  .simph3 {
         padding-left: 60px;
         margin-bottom: 30px;
     }
@@ -389,6 +389,18 @@
     .similarproj.projects .d-flex.justify-content-center a {
         margin-top: 0;
     }
+    .postcontent img {
+        width: calc(50% - 15px);
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .postcontent img + img {
+        margin-left: 15px;
+    }
+
+
+
 }
 
 @media(max-width:767.8px) {
@@ -403,8 +415,23 @@
     .similarproj.projects .news-card {
         margin-bottom: 30px;
     }
+    .postcontent img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 
+    .postcontent img + img {
+        margin-left: 0;
+    }
+    .postcontent p,
+    .postcontent h5 {
+        margin-bottom: 15px;
+    }
    
+    .news.news__newsingle .news__postcards .row .col-md-4.col-6:last-child  {
+        display: none;
+    }
 
     
 }
@@ -443,7 +470,7 @@
         width: 35px;
         height: 4px;
     }
-    .mainslider__left h4, h3 {
+    .mainslider__left h4, h3, .simph3 {
         padding-left: 53px;
     }
     .mainslider__left h4 {
@@ -477,7 +504,7 @@
     .mainslidersect {
         padding-bottom: 0;
     }
-    h3 {
+    h3, .simph3 {
         font-size: 24px;
         line-height: 100%;
         margin-bottom: 30px;
@@ -507,7 +534,8 @@
     .calcsection h3 {
         line-height: 110%;
     }
-    h3::before {
+    h3::before,
+    .simph3::before {
         top: 4px;
     }
     .calcnav__points {
@@ -824,10 +852,17 @@
         font-size: 18px;
     }
 
+    .news.news__newsingle .news__postcards .row .col-md-4.col-6:last-child  {
+        display: block;
+    }
 
+    .news.news__newsingle {
+        padding-bottom: 30px;
+    }
 
-
-
+    .project-group .project:not(:last-child) {
+        margin-bottom: 0;
+    }
 
 
 
@@ -837,6 +872,10 @@
     .news,
     .similarproj.projects {
         padding-top: 35px;
+    }
+
+    .hidetel {
+        display: none !important;
     }
 }
 
