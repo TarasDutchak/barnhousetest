@@ -270,7 +270,12 @@ $('.closeheadmenu').click(function(){
     $(this).find('text').toggleClass('hide');
   });
 
+  // product accordeon
 
+  $('.accordeonsect__box.widthcont .accordeonsect__header').click(function(){
+    $(this).next().slideToggle();
+    $(this).toggleClass('closerotate');
+  });
 
 
 

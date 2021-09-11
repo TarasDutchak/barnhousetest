@@ -1610,6 +1610,130 @@ header.scrolled {
     padding-bottom: 70px;
 }
 
+.projectssection__price {
+    color: #012B0C;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 25px;
+}
+
+.greenbtn.maxw300,
+.projectssection.projectssection_product .project__descr .greenbtn.maxw300 {
+    max-width: 300px;
+}
+
+.keybuild-info__title {
+    margin-bottom: 45px;
+    color: #012B0C;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.projectssection__planimgsect.projectssection__planimgsect-price {
+    margin-bottom: 20px;
+}
+
+.accordeonsect__box {
+}
+.accordeonsect__header {
+    min-height: 45px;
+    padding: 5px 25px;
+    background: #c8d3c9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #012B0C;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 116.5%;
+}
+.accordeonsect__header p {
+    margin: 0;
+}
+.accordeonsect__icons {
+    flex: 0 0 80px;
+    max-width: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.closeacc {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.accordeonsect__box.widthcont .accordeonsect__header {
+    cursor: pointer;
+    position: relative;
+}
+
+.accordeonsect__body {
+    padding: 16px 25px 20px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.accordeonsect__body ul {
+    margin-bottom: 0;
+}
+
+.accordeonsect__body ul li:last-child {
+    margin-bottom: 0;
+}
+
+.accordeonsect__body ul li {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130.5%;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+
+.accordeonsect__body ul li:before {
+    width: 8px;
+    height: 8px;
+}
+
+.accordeonsect__header.closerotate .closeacc {
+    transform: rotate(45deg);
+}
+
+.keybuild__accordeon  {
+    margin-bottom: 45px;
+}
+
+.pb70 {
+    padding-bottom: 70px;
+}
+
+
+.accordeonsect__header p {
+    flex: 0 0 calc(100% - 85px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hide {
     display: none;
 }
