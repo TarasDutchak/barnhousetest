@@ -1715,7 +1715,10 @@ header.scrolled {
     flex: 0 0 calc(100% - 85px);
 }
 
-
+.calcsection,
+.builtbyus {
+    padding-top: 80px;
+}
 
 
 
