@@ -872,7 +872,7 @@
     }
 
     .project-group .project:not(:last-child) {
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
     }
 
     .projectssection__price {
