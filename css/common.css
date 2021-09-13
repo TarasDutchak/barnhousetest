@@ -1720,6 +1720,245 @@ header.scrolled {
     padding-top: 80px;
 }
 
+.keybuild-info__price {
+    padding-top: 50px;
+}
+
+.contacts {
+    padding: 50px 0 70px;
+}
+
+.contacts__callback {
+    max-width: 300px;
+}
+.contacts__boxtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 116.5%;
+    color: #012B0C;
+    margin-bottom: 25px;
+}
+.contacts__boxsubtitle {
+    margin-bottom: 27px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130.5%;
+    color: #012B0C;
+}
+.contacts__form input:not([type="submit"]){
+    width: 100%;
+    height: 34px;
+    padding-left: 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-bottom: 15px;
+    outline: none;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(1, 43, 12, 0.75);
+}
+
+.contacts__form textarea {
+    resize: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    height: 112px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    outline: none;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(1, 43, 12, 0.75);
+    padding-top: 10px;
+}
+
+.contacts__form input[type="submit"] {
+    border: none;
+    width: 100%;
+}
+
+.contacts__map .contacts__boxtitle {
+    margin-bottom: 35px;
+}
+
+.mapbox {
+    position: relative;
+    overflow: hidden;
+    height: 278px;
+    margin-bottom: 22px;
+}
+
+.mapbox >div,
+.mapbox iframe {
+    height: 100%;
+    width: 100% !important;
+}
+.mapbox iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.contacts__address p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #012B0C;
+    position: relative;
+    padding-left: 35px;
+}
+
+.contacts__address span {
+    display: block;
+    font-weight: 300;
+    line-height: 130.5%;
+}
+
+.contacts__address p:after {
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 29px;
+    background: url('../img/svg/local.svg') no-repeat center / 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contact-info {
+    background: #fff;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 40px 80px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contact-infowrap {
+    margin-top: 70px;
+}
+.contact-infowrap h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.contact-infowrap h3::before {
+    display: none;
+}
+.contact-info__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 116.5%;
+    color: #012B0C;
+    margin-bottom: 30px;
+}
+
+.contact-info__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info__list a {
+    font-size: 18px;
+    line-height: 152%;
+    color: #012B0C;
+}
+
+.conttel li,
+.contmail li {
+    position: relative;
+    padding-left: 40px;
+}
+
+.conttel li a::before,
+.contmail li a::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.conttel li a::before {
+    background: url('../img/svg/conttel.svg') no-repeat center / 100%;
+}
+
+.contmail li a::before {
+    background: url('../img/svg/contemail.svg') no-repeat center / 100%;
+}
+
+.keybuild-info.keybuild-info__price {
+    position: relative;
+}
+
+.keybuild-info.keybuild-info__price .mainslidersect__social.twobox {
+    top: 550px;
+}
+
+.conttel li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.typage {
+    padding: 40px 0;
+    min-height: 100vh;
+    background: rgba(105, 144, 116, 0.5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typage__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 608px;
+    margin: 0 auto;
+}
+
+.typage__content img {
+    max-width: 100%;
+    margin-bottom: 45px;
+}
+
+.typage__content .title {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: rgba(1, 43, 12, 0.75);
+}
+
+.typage__content .descr {
+    margin-bottom: 45px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #012B0C;
+}
+
+.typage__content a {
+    margin: 0 auto;
+}
+
+
+
+
+
 
 
 

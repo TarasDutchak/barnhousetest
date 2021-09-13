@@ -151,6 +151,22 @@
         font-size: 26px;
     }
 
+    .typage__content .title {
+        margin-bottom: 15px;
+        font-size: 32px;
+        line-height: 140%;
+    }
+    .typage__content .descr {
+        font-size: 20px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    .typage__content img {
+        margin-bottom: 25px;
+    }
+
+
+
 
 }
 
@@ -410,6 +426,33 @@
         margin-left: 15px;
     }
 
+    .contact-infowrap h3,
+    .contact-info__title {
+        margin-bottom: 10px;
+    }
+
+    .contact-info__list {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -443,6 +486,26 @@
     .news.news__newsingle .news__postcards .row .col-md-4.col-6:last-child  {
         display: none;
     }
+
+    .contacts__callback {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 }
@@ -917,6 +980,81 @@
         transform: none;
         top: 7px;
     }
+
+    .seosect__price {
+        padding-top: 50px;
+    }
+
+    .contacts__boxtitle,
+    .contacts__boxsubtitle,
+    .contacts__map .contacts__boxtitle {
+        margin-bottom: 15px;
+    }
+
+    .contacts__callback {
+        margin-bottom: 40px;
+    }
+
+    .contact-infowrap {
+        margin-top: 50px;
+    }
+
+    .contact-info {
+        padding: 20px;
+    }
+
+    .contact-info__title {
+        font-size: 18px;
+    }
+
+    .contact-info__list a {
+        font-size: 16px;
+    }
+
+    .conttel li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .conttel li a::before, .contmail li a::before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .conttel li, .contmail li {
+        padding-left: 30px;
+    }
+
+    .contacts {
+        padding-bottom: 50px;
+    }
+
+    .contact-infowrap h3 {
+        text-align: left;
+        font-size: 23px;
+        line-height: 113%;
+        margin-bottom: 30px;
+    }
+
+    .typage__content {
+        max-width: 300px;
+    }
+
+    .typage__content .title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .typage__content .descr {
+        font-size: 16px;
+    }
+
+    .typage__content img {
+        margin-bottom: 10px;
+    }
+
+
+
+
+
 
 
 
