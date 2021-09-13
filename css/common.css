@@ -1955,7 +1955,13 @@ header.scrolled {
     margin: 0 auto;
 }
 
-
+.keybuild-info__price-subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130.5%;
+    color: #012B0C;
+    margin-bottom: 40px;
+}
 
 
 
