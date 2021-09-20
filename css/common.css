@@ -48,11 +48,14 @@
     font-style: normal;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -72,7 +75,12 @@ main {
     flex: 1 1 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
 }
 
@@ -84,7 +92,8 @@ h1 {
     margin-bottom: 40px;
 }
 
-h3,.simph3 {
+h3,
+.simph3 {
     color: #012B0C;
     font-weight: 600;
     font-size: 30px;
@@ -241,7 +250,8 @@ header.header {
     color: #012B0C;
 }
 
-.header__nav ul li.active a:before, .header__nav ul li a:hover:before {
+.header__nav ul li.active a:before,
+.header__nav ul li a:hover:before {
     width: 100%;
 }
 
@@ -392,7 +402,14 @@ main.main {
     height: 3px;
 }
 
-.sliderlitt .slick-next, .sliderlitt .slick-prev, .builtbyus__slider .slick-next, .builtbyus__slider .slick-prev, .project-sliderbig .slick-next, .project-sliderbig .slick-prev, .mainslider .slick-next, .mainslider .slick-prev {
+.sliderlitt .slick-next,
+.sliderlitt .slick-prev,
+.builtbyus__slider .slick-next,
+.builtbyus__slider .slick-prev,
+.project-sliderbig .slick-next,
+.project-sliderbig .slick-prev,
+.mainslider .slick-next,
+.mainslider .slick-prev {
     width: 10px;
     height: 10px;
     border: none;
@@ -403,14 +420,18 @@ main.main {
     background-color: transparent;
 }
 
-.sliderlitt .slick-next, .project-sliderbig .slick-next, .mainslider .slick-next {
+.sliderlitt .slick-next,
+.project-sliderbig .slick-next,
+.mainslider .slick-next {
     background-image: url('../img/arrow-right.svg');
     position: absolute;
     bottom: -3px;
     left: 335px;
 }
 
-.sliderlitt .slick-prev, .project-sliderbig .slick-prev, .mainslider .slick-prev {
+.sliderlitt .slick-prev,
+.project-sliderbig .slick-prev,
+.mainslider .slick-prev {
     background-image: url('../img/arrow-left.svg');
     position: absolute;
     bottom: -3px;
@@ -584,13 +605,17 @@ main.main {
     max-width: 253px;
 }
 
-.calcbox__step1, .calcbox__step2, .calcbox__step3 {
+.calcbox__step1,
+.calcbox__step2,
+.calcbox__step3 {
     visibility: hidden;
     opacity: 0;
     height: 0;
 }
 
-.calcbox__step1.show, .calcbox__step2.show, .calcbox__step3.show {
+.calcbox__step1.show,
+.calcbox__step2.show,
+.calcbox__step3.show {
     visibility: visible;
     opacity: 1;
     height: auto;
@@ -1150,7 +1175,8 @@ footer.footer {
     cursor: pointer;
 }
 
-.slick-next, .slick-prev {
+.slick-next,
+.slick-prev {
     cursor: pointer;
 }
 
@@ -1259,7 +1285,9 @@ header.scrolled {
     padding: 20px;
 }
 
-.header__nav .header__lang, .burgerbtn, .tablet-title {
+.header__nav .header__lang,
+.burgerbtn,
+.tablet-title {
     display: none;
 }
 
@@ -1467,6 +1495,7 @@ header.scrolled {
 .projectssection.projectssection_product h3 {
     margin-bottom: 35px;
 }
+
 .projectssection.projectssection_product .project__descr>ul {
     margin-bottom: 45px;
 }
@@ -1479,6 +1508,7 @@ header.scrolled {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
 .projectssection__planimgsect img {
     width: 100%;
 }
@@ -1569,6 +1599,7 @@ header.scrolled {
     transition: .5s;
     animation-timing-function: ease-in-out;
 }
+
 .similarproj.projects .news-card a:hover:after {
     opacity: 1;
 }
@@ -1585,7 +1616,7 @@ header.scrolled {
     margin-bottom: 30px;
 }
 
-.postcontent img + img {
+.postcontent img+img {
     margin-right: 0;
     margin-left: 30px;
 }
@@ -1635,8 +1666,8 @@ header.scrolled {
     margin-bottom: 20px;
 }
 
-.accordeonsect__box {
-}
+.accordeonsect__box {}
+
 .accordeonsect__header {
     min-height: 45px;
     padding: 5px 25px;
@@ -1650,9 +1681,11 @@ header.scrolled {
     font-size: 20px;
     line-height: 116.5%;
 }
+
 .accordeonsect__header p {
     margin: 0;
 }
+
 .accordeonsect__icons {
     flex: 0 0 80px;
     max-width: 80px;
@@ -1661,6 +1694,7 @@ header.scrolled {
     align-items: center;
     justify-content: space-between;
 }
+
 .closeacc {
     cursor: pointer;
     transition: .3s;
@@ -1702,7 +1736,7 @@ header.scrolled {
     transform: rotate(45deg);
 }
 
-.keybuild__accordeon  {
+.keybuild__accordeon {
     margin-bottom: 45px;
 }
 
@@ -1731,6 +1765,7 @@ header.scrolled {
 .contacts__callback {
     max-width: 300px;
 }
+
 .contacts__boxtitle {
     font-weight: 500;
     font-size: 20px;
@@ -1738,6 +1773,7 @@ header.scrolled {
     color: #012B0C;
     margin-bottom: 25px;
 }
+
 .contacts__boxsubtitle {
     margin-bottom: 27px;
     font-weight: 300;
@@ -1745,7 +1781,8 @@ header.scrolled {
     line-height: 130.5%;
     color: #012B0C;
 }
-.contacts__form input:not([type="submit"]){
+
+.contacts__form input:not([type="submit"]) {
     width: 100%;
     height: 34px;
     padding-left: 18px;
@@ -1791,11 +1828,12 @@ header.scrolled {
     margin-bottom: 22px;
 }
 
-.mapbox >div,
+.mapbox>div,
 .mapbox iframe {
     height: 100%;
     width: 100% !important;
 }
+
 .mapbox iframe {
     position: absolute;
     width: 100%;
@@ -1843,14 +1881,17 @@ header.scrolled {
 .contact-infowrap {
     margin-top: 70px;
 }
+
 .contact-infowrap h3 {
     text-align: center;
     margin-bottom: 40px;
     padding: 0;
 }
+
 .contact-infowrap h3::before {
     display: none;
 }
+
 .contact-info__title {
     font-weight: 500;
     font-size: 20px;
@@ -1963,16 +2004,59 @@ header.scrolled {
     margin-bottom: 40px;
 }
 
+#getconsultation.modal__custom .modal-dialog {
+    max-width: 587px;
+}
 
+#getconsultation.modal__custom .modal-content {
+    background: #F1F0EE;
+    padding: 85px 110px 120px 110px;
+}
 
+#getconsultation.modal__custom .getcons-form form {
+    max-width: 300px;
+    margin: 0 auto;
+}
 
+#getconsultation.modal__custom input:not([type="submit"]) {
+    outline: none;
+    width: 100%;
+    height: 34px;
+    padding-left: 18px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(1, 43, 12, 0.75);
+    margin-bottom: 18px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
 
+#getconsultation.modal__custom input[type="submit"] {
+    border: none;
+    width: 100%;
+    max-width: 280px;
+    margin: 22px auto 0;
+}
 
+#getconsultation.modal__custom .title {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 116.5%;
+    color: #000000;
+    text-align: center;
+}
 
+#getconsultation.modal__custom button.close {
+    right: 10px;
+    top: 10px;
+}
 
-
-
-
+.keybuild-info {
+    padding-bottom: 35px;
+}
 
 
 

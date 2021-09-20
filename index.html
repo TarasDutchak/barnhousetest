@@ -82,7 +82,8 @@
                             <h4>
                                 Будівництво сучасних енергоефективних будинків в архітектурному стилі BarnHouse
                             </h4>
-                            <a href="#" class="greenbtn">Отримати консультацію</a>
+                            <a href="#" data-toggle="modal" data-target="#getconsultation" class="greenbtn">Отримати
+                                консультацію</a>
                             <div class="sliderlitt">
                                 <div class="slider-nav">
                                     <div>
@@ -768,7 +769,25 @@
         </div>
     </div>
 
-
+    <!-- Modal -->
+    <div class="modal fade modal__custom" id="getconsultation" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="img/close-black.svg" alt="close">
+                </button>
+                <div class="getcons-form">
+                    <p class="title">Отримайте безкоштовну консультацію</p>
+                    <form action="#">
+                        <input type="text" placeholder="Ваше ім’я">
+                        <input type="tel" class="tel" placeholder="Номер телефону">
+                        <input type="submit" class="greenbtn" value="Отримати консультацію">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -782,6 +801,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.formstyler.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/input-mask.js"></script>
     <script src="js/common.js"></script>
 </body>
 
