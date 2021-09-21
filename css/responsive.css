@@ -626,6 +626,10 @@
 }
 
 @media(max-width:575.8px) {
+    .pb60 {
+        padding-bottom: 40px;
+    }
+    
 
     .mainslider__left,
     .mainslider__right {
