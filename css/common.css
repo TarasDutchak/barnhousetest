@@ -2074,13 +2074,26 @@ header.scrolled {
     display: none;
 }
 
+.news-card__img img {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
 
-
-
+@media(max-width:991.8px) {
+    .header__nav .header__lang ul li a {
+        color: #699174;
+   }
+   .header__nav .header__lang ul li.active a {
+    color: #000000;
+}
+    
+}
 @media(max-width:576.8px) {
     .news.news__newsingle .news__postcards .news__postcard.news-card {
         height: auto;
     }
+
+    
 }
 
 /* font-family: 'Lato', sans-serif; */
