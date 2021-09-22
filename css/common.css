@@ -2063,7 +2063,9 @@ header.scrolled {
 }
 
 
-
+.news.news__newsingle .news__postcards .news__postcard.news-card {
+    height: calc(100% - 30px);
+}
 
 
 
@@ -2072,6 +2074,14 @@ header.scrolled {
     display: none;
 }
 
+
+
+
+@media(max-width:576.8px) {
+    .news.news__newsingle .news__postcards .news__postcard.news-card {
+        height: auto;
+    }
+}
 
 /* font-family: 'Lato', sans-serif; */
 
